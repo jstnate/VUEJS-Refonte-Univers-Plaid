@@ -43,7 +43,7 @@
         box-shadow: 0px 5px 20px rgba(10, 57, 105, 0.15);
 
         @media screen and (min-width: 1024px) {
-            height: 65vh;
+            height: 50vh;
         }
 
         img {
@@ -56,14 +56,14 @@
             font-size: 24px;
             font-weight: 900;
             @media screen and (min-width: 1024px) {
-                font-size: 36px;
+                font-size: 24px;   
             }
         }
 
         p {
             width: 90%;
             @media screen and (min-width: 1024px) {
-                font-size: 28px;
+                font-size: 16px;
             }
         }
 
@@ -84,6 +84,10 @@
             bottom: -85px;
             left: -85px;
             transition: all .3s ease;
+            @media screen and (min-width: 1024px) {
+                bottom: -100px;
+                left: -100px;
+            }
         }
 
         &:hover a {

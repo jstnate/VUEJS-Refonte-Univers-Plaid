@@ -38,31 +38,22 @@ export default {
         @media screen and (min-width: 1024px) {
             width: 40%;
             gap: 20px;
+            padding: 2rem;
         }
 
         img {
             width: 70px;
-
-            @media screen and (min-width: 1024px) {
-                width: 100px;
-            }
+            height: 70px;
+            object-fit: contain;
         }
         h4 {
             font-size: 24px;
             font-weight: bold;
-
-            @media screen and (min-width: 1024px) {
-                font-size: 36px;
-            }
         }
         p {
             font-size: 20px;
             font-weight: 100;
             font-style: italic;
-
-            @media screen and (min-width: 1024px) {
-                font-size: 28px;
-            }
         }
     }
 </style>
