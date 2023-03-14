@@ -1,4 +1,4 @@
-# Uniivers-Plaid Refonte
+# Univers-Plaid Refonte
 *This project is a personal project and has no commercial purpose*
 
 ## Project setup
