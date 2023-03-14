@@ -59,7 +59,7 @@
     </div>
   </nav>
   <main class="content">
-    <header class="content__banner">
+    <header class="content__banner" data-aos="fade-up">
       <div class="content__banner__text">
         <h1>Offrez-vous le plaid réconfortant dont vous avez besoin !</h1>
         <p>Nous avons une grande variété de <strong>modèles</strong>, de <strong>couleurs</strong>, et de <strong>textures</strong> pour s'adapter à tous les goûts et à tous les styles.</p>
@@ -74,11 +74,11 @@
     <section class="content__section content__famous">
       <h2>Nos coups de coeur</h2>
       <div class="content__famous__cards">
-        <FamousCard position="div1" cover="vedette_2.webp"/>
-        <FamousCard position="div2" cover="vedette_4.webp"/>
-        <FamousCard position="div3" cover="vedette_1.webp"/>
-        <FamousCard position="div4" cover="vedette_3.webp"/>
-        <FamousCard position="div5" cover="vedette_5.webp"/>
+        <FamousCard data-aos="fade-right" position="div1" cover="vedette_2.webp"/>
+        <FamousCard data-aos="fade-right" position="div2" cover="vedette_4.webp"/>
+        <FamousCard data-aos="fade-up" position="div3" cover="vedette_1.webp"/>
+        <FamousCard data-aos="fade-left" position="div4" cover="vedette_3.webp"/>
+        <FamousCard data-aos="fade-left" position="div5" cover="vedette_5.webp"/>
       </div>
     </section>
 
@@ -86,16 +86,19 @@
       <h2>Nos collections<span>Univers Plaid</span></h2>
       <div class="content__collections__cards">
         <CollectionCard 
+          data-aos="fade-right"
           title="Par couleur ou univers" 
           description="Sublimez vos intérieurs avec nos plaids de toutes les couleurs, bleu, vert, jaune.. Ou offrez-vous simplement le plaid de votre univers favori."
           cover="collection_1.webp"
         />
-        <CollectionCard 
+        <CollectionCard
+          data-aos="fade-up"
           title="Pour enfant" 
           description="Les plaids ont envahi nos intérieurs. Un plaid pour vos enfants avec des motifs dinosaures ou baby shark."
           cover="collection_2.webp"
         />
-        <CollectionCard 
+        <CollectionCard
+          data-aos="fade-left"
           title="Par bébé" 
           description="Spécialement conçu pour les bébés, nos plaids sont incroyablement doux."
           cover="collection_3.webp"
@@ -104,21 +107,21 @@
     </section>
 
     <section class="content__section content__about">
-        <img src="@/assets/univers-plaid-about.webp" alt="">
-        <div>
+        <img src="@/assets/univers-plaid-about.webp" alt="family image" data-aos="fade-right">
+        <div data-aos="fade-left">
           <h3>Qui sommes-nous ?</h3>
           <p>Chez <strong>Univers Plaid</strong>, nous sommes convaincus que chacun mérite de se blottir dans un <strong>plaid confortable</strong> après une longue journée de travail ou pour une soirée cocooning à la maison. C'est pourquoi nous mettons tout en œuvre pour offrir à nos clients des <strong>produits de qualité supérieure</strong> à des <strong>prix abordables</strong>, avec un <strong>service client irréprochable</strong>. Nous n’avons qu’un seul objectif : <strong>vous chouchouter</strong>.</p>
           <a href="#">Découvrir nos produits</a>
         </div>
     </section>
 
-    <section class="content__section content__service">
+    <section class="content__section content__service" data-aos="fade-up">
       <ServiceCard title="Livraison offerte" description="Dès 50€ d'achat" icon="camion.svg"/>
       <ServiceCard title="Satisfait ou remboursé" icon="money-back.svg"/>
       <ServiceCard title="Service client" description="Réactif et à l'écoute" icon="service-client.svg"/>
     </section>
 
-    <section class="content__section content__newsletter">
+    <section class="content__section content__newsletter" data-aos="fade-up">
       <div>
         <img src="@/assets/envelope.svg" alt="">
         <h3>Newsletter</h3>
@@ -180,10 +183,14 @@
     </footer>
   </main>
 </template>
+
 <script>
   import FamousCard from '@/components/FamousCardComponent.vue';
   import CollectionCard from '@/components/CollectionCardComponent.vue';
   import ServiceCard from '@/components/ServiceComponent.vue';
+  import AOS from 'aos';
+  import 'aos/dist/aos.css';
+
   export default {
     name: 'App',
     components: {
@@ -192,6 +199,9 @@
       ServiceCard
     },
     mounted() {
+      AOS.init({
+        duration: 1000,
+      });
       const burger = document.getElementById('hamburger');
       const menu = document.getElementById('burder-menu');
       const dropdowns = document.querySelectorAll('#dropdown');
@@ -964,8 +974,8 @@ $pseudo-border: #0A3969;
 
         @media screen and (min-width: 1024px) {
           width: 70%;
-          bottom: 50%;
-          transform: translateY(50%);
+          height: 80%;
+          top: 10%;
           right: 0;
           padding: 2rem 4rem;
         }
