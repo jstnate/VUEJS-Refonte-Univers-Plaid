@@ -6,6 +6,14 @@
     /* font-family: 'Yeseva One', cursive; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 #app {
     width: 100vw;
     height: auto;

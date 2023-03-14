@@ -1,45 +1,7 @@
 <template>
-  <nav class="nav">
+  <nav id="top" class="nav">
     <div class="nav__image">
-      <svg width="100%" height="100%" viewBox="0 0 727 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
-        <g transform="matrix(1,0,0,1,-132.6,-366.3)">
-          <circle cx="285.5" cy="519.2" r="152.9" style="fill:rgb(188,206,234);"/>
-          <path d="M195.9,535.7L219,602.2L399.8,592.6L399.3,580.2C399.3,580.2 404.5,579.7 403.2,569.5C402.4,563.8 400.8,562.6 399.2,554.8C396.8,543.5 402.4,532.7 397.3,519.2C393.3,508.5 361.6,512.6 361.6,512.6L195.9,535.7Z" style="fill:white;fill-rule:nonzero;"/>
-          <g>
-              <g>
-                  <path d="M343.2,567.4C311,567.7 279,570.4 247,574.2C241.4,574.9 235.4,575.8 234.6,568.3C233.9,561.3 237.9,557.3 245.2,556.4C274.8,552.8 304.5,549.8 334.4,549.6C349.2,549.5 363.9,549.6 378.7,549.8C383.1,549.9 387.2,549.6 387.6,544.2C388,539.3 385.3,535.8 380.6,534.4C378.7,533.8 376.6,533.9 374.6,533.9C330.3,533 286.1,535.2 242.2,541.6C232.4,543 224.2,546.9 218.9,555.6C213.9,563.7 213.2,572.6 218,580.4C223.2,588.7 231.3,593.1 241.9,591.3C279.9,585 318.1,581.9 356.6,580.5C369.9,580 383.1,581.6 396.4,580.2C401,579.7 405.9,582.3 409.5,586.1C412.5,589.3 414.5,592.4 412.6,596.8C410.7,600.9 407,601 403.2,601C384.8,600.6 366.3,599.6 347.9,599.9C313.2,600.5 278.6,602.9 244.4,609.8C222,614.3 201.1,605.4 189.5,585.5C182,572.5 175.2,559.2 172.2,544C168.6,525.6 161.2,508.1 158.2,489.6C155.6,473.9 160,464.9 173.9,457C195.6,444.6 219.7,440.1 244.1,437.6C264.8,435.5 285.6,435.3 306.4,435.9C324.1,436.4 339.1,442.8 352,454.3C377.5,477 394.2,505.4 403.3,538C408.3,556 404.1,569.5 379.3,567.7C372.6,567.2 365.9,567.5 359.2,567.5C353.9,567.4 348.5,567.4 343.2,567.4ZM254.7,467.8C246,468 238.6,472.6 236.6,478.8C234.5,485.2 237.3,492.3 244.3,497.5C245.9,498.7 247.7,499.9 249.5,500.8C259.5,505.6 269.5,510.3 279.5,515.1C281.3,515.9 282.7,516.5 284.3,514.8C292,506.8 300,499.2 307.4,490.9C312.2,485.6 313.7,478.9 310.1,472.2C306.6,465.7 300.5,463.1 293.4,462.8C286,462.5 279.4,464.9 275.3,471.2C272.9,474.8 271.4,474.6 268.3,472.3C264.2,469.3 259.1,468 254.7,467.8ZM339,458.9C323.5,441.5 310.5,443.5 291.1,445.9C307.4,449 324.4,449 339,458.9Z" style="fill:rgb(10,57,105);fill-rule:nonzero;"/>
-              </g>
-              <g>
-                  <path d="M254.8,467.9C246.1,468.1 238.8,472.7 236.7,478.9C234.6,485.3 237.4,492.4 244.4,497.6C246,498.8 247.8,500 249.6,500.9C259.6,505.7 269.6,510.4 279.5,515.2C281.2,516 282.7,516.5 284.3,514.9C292,506.9 300,499.3 307.4,491C312.1,485.7 313.7,479 310.1,472.3C306.6,465.8 300.5,463.2 293.4,462.9C286,462.6 279.5,465 275.4,471.3C273,474.9 271.5,474.7 268.4,472.4C264.2,469.3 259.2,468 254.8,467.9Z" style="fill:white;fill-rule:nonzero;"/>
-                  <path d="M339,458.9C323.5,441.5 310.5,443.5 291.1,445.9C307.4,449 324.4,449 339,458.9Z" style="fill:white;fill-rule:nonzero;"/>
-              </g>
-          </g>
-          <g transform="matrix(1,0,0,1,-139.526,0)">
-              <path d="M643.8,555.5L643.8,561.4L644.2,562.5L644.2,622.4C644.2,623.3 644.3,624 644.6,624.5C644.8,625 645.2,625.2 645.8,625.4L648.2,625.9C648.7,626.1 649.1,626.3 649.3,626.6C649.5,626.9 649.6,627.2 649.6,627.6C649.6,628.1 649.4,628.5 649.1,628.8C648.8,629.1 648.2,629.2 647.5,629.2L623.8,629.2C623.1,629.2 622.5,629.1 622.2,628.8C621.9,628.5 621.7,628.1 621.7,627.6C621.7,627.2 621.8,626.9 622,626.6C622.2,626.3 622.6,626.1 623.1,625.9L625,625.4C625.5,625.2 625.9,624.9 626.2,624.5C626.4,624 626.6,623.4 626.6,622.4L626.6,564C626.6,563.3 626.5,562.8 626.3,562.5C626.1,562.2 625.7,562 625.3,561.9L622.9,561.7C622.4,561.6 622.1,561.4 621.9,561.2C621.7,560.9 621.6,560.6 621.6,560.3C621.6,559.8 621.7,559.5 622,559.2C622.3,559 622.7,558.7 623.4,558.4L637,554C638,553.6 638.8,553.3 639.4,553.2C640,553.1 640.6,553 641.1,553C642,553 642.7,553.2 643.1,553.7C643.5,554.2 643.8,554.8 643.8,555.5ZM641.8,567.4L639.7,565.2C642.3,561.3 645.2,558.3 648.4,556.2C651.6,554.1 655.2,553 659.2,553C663.4,553 667.1,554 670.3,556.1C673.5,558.2 676,561 677.8,564.7C679.6,568.4 680.5,572.7 680.5,577.7C680.5,583.3 679.4,588.2 677.2,592.4C675,596.6 672,599.8 668.3,602.1C664.5,604.4 660.3,605.5 655.6,605.5C651.7,605.5 648.4,604.7 645.6,603.2C642.9,601.6 640.6,599.2 638.8,596L641.9,593.8C643.2,596.1 644.6,597.8 646.2,598.9C647.8,600 649.5,600.5 651.5,600.5C653.6,600.5 655.4,599.8 657.1,598.5C658.8,597.2 660,595 660.9,591.9C661.8,588.8 662.2,584.7 662.2,579.5C662.2,574.7 661.8,570.9 660.9,568C660.1,565.1 658.9,563 657.4,561.6C655.9,560.3 654.2,559.6 652.3,559.6C650.4,559.6 648.5,560.2 646.7,561.5C645,562.8 643.4,564.7 641.8,567.4Z" style="fill:rgb(10,57,105);fill-rule:nonzero;"/>
-          </g>
-          <g transform="matrix(1,0,0,1,-139.526,0)">
-              <path d="M709.1,525.9L709.1,597.3C709.1,598.2 709.2,598.9 709.5,599.4C709.7,599.8 710.1,600.1 710.7,600.3L712.7,600.8C713.2,601 713.6,601.2 713.8,601.5C714,601.8 714.1,602.1 714.1,602.5C714.1,603 713.9,603.5 713.6,603.7C713.3,604 712.7,604.1 712,604.1L688.5,604.1C687.8,604.1 687.3,604 686.9,603.7C686.5,603.4 686.4,603 686.4,602.5C686.4,602.1 686.5,601.8 686.8,601.5C687,601.2 687.4,601 688,600.8L690,600.3C690.5,600.1 690.9,599.8 691.2,599.4C691.4,599 691.6,598.3 691.6,597.3L691.6,534.4C691.6,533.7 691.5,533.2 691.3,532.9C691.1,532.6 690.7,532.4 690.3,532.4L687.9,532.2C687.4,532.1 687.1,531.9 686.9,531.7C686.7,531.5 686.6,531.1 686.6,530.7C686.6,530.2 686.7,529.9 687,529.6C687.3,529.3 687.7,529.1 688.4,528.8L702.6,524.3C703.7,523.9 704.5,523.6 705.1,523.5C705.7,523.3 706.2,523.3 706.7,523.3C707.6,523.3 708.3,523.5 708.7,524C709.1,524.5 709.1,525.1 709.1,525.9Z" style="fill:rgb(10,57,105);fill-rule:nonzero;"/>
-          </g>
-          <g transform="matrix(1,0,0,1,-139.526,0)">
-              <path d="M719,593.1C719,588.7 720.9,585.1 724.8,582.5C728.7,579.9 734.5,578.5 742.2,578.5C744.3,578.5 746.1,578.7 747.5,579.1C749,579.5 750.3,580 751.3,580.6L750.3,583C749.3,582.5 748.3,582.1 747.3,581.8C746.3,581.5 745.2,581.4 744,581.4C741.7,581.4 740,582.2 738.7,583.7C737.4,585.2 736.8,587.4 736.8,590.3C736.8,593.1 737.4,595.3 738.6,596.7C739.8,598.1 741.4,598.8 743.3,598.8C744.7,598.8 746,598.5 747.2,597.8C748.5,597.1 749.5,596.2 750.3,595.1L751.3,597.3C749.6,599.9 747.2,601.9 744.2,603.3C741.1,604.7 737.9,605.4 734.4,605.4C729.9,605.4 726.2,604.2 723.4,601.9C720.6,599.6 719,596.7 719,593.1ZM749.5,598L749.5,597.1L748.4,597.4L748.4,562.2C748.4,560.3 747.9,558.7 747,557.6C746.1,556.5 744.8,556 743.1,556C741.4,556 740.2,556.4 739.2,557.2C738.3,558 737.8,559 737.8,560.2L737.8,565.4C737.8,567.8 737,569.7 735.3,571.2C733.6,572.7 731.4,573.4 728.5,573.4C726.2,573.4 724.5,572.8 723.2,571.7C721.9,570.6 721.3,569 721.3,566.9C721.3,564.8 722.2,562.7 724.1,560.5C725.9,558.4 728.7,556.6 732.3,555.2C735.9,553.8 740.4,553.1 745.8,553.1C752.6,553.1 757.7,554.4 761,557.1C764.3,559.8 766,563.5 766,568.2L766,595.4C766,596.3 766.2,597 766.6,597.5C767,598 767.5,598.2 768.2,598.2C768.8,598.2 769.4,598 769.8,597.6C770.2,597.2 770.6,596.7 770.8,596.1C770.9,595.9 771.1,595.7 771.2,595.6C771.3,595.5 771.5,595.4 771.7,595.4C772,595.4 772.3,595.5 772.4,595.8C772.6,596 772.6,596.3 772.6,596.7C772.6,597.8 772.2,599 771.3,600.4C770.4,601.8 769.1,603 767.2,604C765.4,605 763,605.5 760.1,605.5C756.6,605.5 753.9,604.8 752.1,603.4C750.5,602 749.5,600.2 749.5,598Z" style="fill:rgb(10,57,105);fill-rule:nonzero;"/>
-          </g>
-          <g transform="matrix(1,0,0,1,-139.526,0)">
-              <path d="M799.3,555.7L799.3,597.4C799.3,598.3 799.4,599 799.7,599.5C799.9,599.9 800.3,600.2 800.9,600.4L802.9,600.9C803.4,601.1 803.8,601.3 804,601.6C804.2,601.9 804.3,602.2 804.3,602.6C804.3,603.1 804.1,603.6 803.8,603.8C803.5,604.1 802.9,604.2 802.2,604.2L778.7,604.2C778,604.2 777.4,604.1 777.1,603.8C776.8,603.5 776.6,603.1 776.6,602.6C776.6,602.2 776.7,601.9 776.9,601.6C777.1,601.3 777.5,601.1 778,600.9L780.1,600.4C780.7,600.2 781.1,599.9 781.3,599.5C781.5,599.1 781.6,598.4 781.6,597.4L781.6,564.2C781.6,563.6 781.5,563.1 781.3,562.8C781.1,562.5 780.7,562.3 780.3,562.2L777.9,562C777.4,561.9 777.1,561.7 776.9,561.5C776.7,561.2 776.6,560.9 776.6,560.5C776.6,560 776.7,559.7 777,559.4C777.3,559.1 777.7,558.9 778.4,558.6L792.6,554.1C793.7,553.7 794.5,553.4 795.1,553.3C795.7,553.1 796.2,553.1 796.7,553.1C797.6,553.1 798.2,553.3 798.7,553.8C799.1,554.3 799.3,554.9 799.3,555.7ZM789.7,547.3C786.5,547.3 784,546.4 782.1,544.7C780.2,543 779.3,540.7 779.3,538C779.3,535.3 780.3,533.1 782.2,531.4C784.1,529.7 786.6,528.8 789.8,528.8C793,528.8 795.5,529.7 797.4,531.4C799.3,533.1 800.3,535.3 800.3,538C800.3,540.7 799.3,543 797.4,544.7C795.4,546.4 792.8,547.3 789.7,547.3Z" style="fill:rgb(10,57,105);fill-rule:nonzero;"/>
-          </g>
-          <g transform="matrix(1,0,0,1,-139.526,0)">
-              <path d="M808.8,580.8C808.8,575.1 809.9,570.2 812.1,566.1C814.3,561.9 817.3,558.7 821.1,556.4C824.9,554.1 829.1,553 833.8,553C837.7,553 841,553.8 843.8,555.4C846.5,557 848.8,559.4 850.6,562.4L847.4,564.6C846.1,562.3 844.7,560.6 843.1,559.6C841.5,558.5 839.7,558 837.6,558C835.5,558 833.7,558.7 832.1,560.1C830.5,561.5 829.2,563.7 828.3,566.8C827.4,569.9 826.9,574 826.9,579.2C826.9,583.8 827.3,587.6 828.1,590.5C828.9,593.4 830.1,595.5 831.6,596.9C833.1,598.2 834.8,598.9 836.7,598.9C838.7,598.9 840.6,598.3 842.4,597C844.2,595.8 845.9,593.8 847.4,591.2L849.4,593.4C846.7,597.3 843.8,600.3 840.7,602.3C837.5,604.4 834,605.4 830,605.4C825.9,605.4 822.2,604.4 819,602.3C815.8,600.3 813.3,597.4 811.4,593.7C809.7,590.1 808.8,585.8 808.8,580.8ZM845.5,596.5L845.1,596.3L845.1,534.4C845.1,533.7 845,533.2 844.8,532.9C844.6,532.6 844.2,532.4 843.8,532.4L841.4,532.2C840.9,532.1 840.6,531.9 840.4,531.7C840.2,531.4 840.1,531.1 840.1,530.7C840.1,530.2 840.2,529.9 840.5,529.6C840.8,529.3 841.2,529.1 841.9,528.8L856.1,524.3C857.1,523.9 858,523.6 858.6,523.5C859.2,523.3 859.8,523.3 860.4,523.3C861.3,523.3 861.9,523.5 862.3,524C862.7,524.5 862.9,525.1 862.9,525.9L862.9,597.3C862.9,598.2 863,598.9 863.3,599.4C863.5,599.8 863.9,600.1 864.5,600.3L866.5,600.8C867,601 867.4,601.2 867.6,601.5C867.8,601.8 867.9,602.1 867.9,602.5C867.9,603 867.7,603.5 867.4,603.7C867.1,604 866.5,604.1 865.8,604.1L850.4,604.1C849,604.1 847.9,603.6 846.9,602.8C846,601.9 845.5,600.7 845.5,599.3L845.5,596.5Z" style="fill:rgb(10,57,105);fill-rule:nonzero;"/>
-          </g>
-          <g>
-              <path d="M534.7,478.3L532.7,446.1C532.6,444.5 532.2,443.3 531.5,442.5C530.8,441.6 529.8,441.1 528.3,440.7L525.8,440.2C524.6,439.9 523.8,439.6 523.4,439.1C523,438.6 522.7,438 522.7,437.2C522.7,436.4 523,435.8 523.5,435.3C524.1,434.8 524.9,434.6 525.9,434.6L545.6,434.6C546.7,434.6 547.5,434.8 548,435.3C548.6,435.8 548.8,436.4 548.8,437.2C548.8,438 548.6,438.6 548.1,439C547.6,439.5 546.8,439.8 545.7,440.1L543.3,440.6C541.5,441 540.3,441.7 539.7,442.7C539.1,443.7 538.9,444.9 539,446.4L541,478.2C541.1,480.1 541.3,481.9 541.4,483.7C541.5,485.5 541.6,487.3 541.6,489.3C541.7,493.8 540.7,497.9 538.5,501.5C536.4,505.1 533.1,507.9 528.7,509.9C524.3,512 518.8,513 512.2,513C505.3,513 499.5,512 494.8,510.1C490.2,508.2 486.7,505.4 484.4,501.9C482.1,498.4 481,494.2 481,489.4C481,488.6 481,487.5 481.1,486.2C481.2,484.9 481.3,483.4 481.3,481.6C481.4,479.9 481.5,477.9 481.7,475.8L483.5,444.2C483.6,443.1 483.3,442.4 482.8,441.8C482.3,441.3 481.4,440.9 480,440.6L477.3,440.1C475.3,439.7 474.2,438.7 474.2,437.2C474.2,436.4 474.5,435.8 475,435.3C475.6,434.8 476.4,434.6 477.4,434.6L506.1,434.6C507.2,434.6 508,434.8 508.5,435.3C509.1,435.8 509.3,436.4 509.3,437.2C509.3,437.9 509.1,438.5 508.6,439C508.1,439.5 507.3,439.8 506.2,440.1L503.4,440.6C502.3,440.8 501.6,441.1 501.1,441.7C500.6,442.2 500.3,443 500.3,444.1L498.5,475.8C498.4,478.3 498.2,480.6 498.2,482.6C498.1,484.7 498.1,486.5 498,488.1C497.9,494.4 499.5,499 502.6,502C505.7,505 510.1,506.4 515.8,506.4C519.8,506.4 523.2,505.7 526.1,504.3C529,502.9 531.1,500.9 532.6,498.4C534.1,495.8 534.8,492.7 534.8,489.1C534.8,486.6 534.7,484.5 534.6,482.8C534.5,481.1 534.8,479.7 534.7,478.3Z" style="fill:rgb(10,57,105);fill-rule:nonzero;stroke:rgb(10,57,105);stroke-width:0.75px;"/>
-              <path d="M574.2,461.7L574.2,502C574.2,503.1 574.4,504 574.7,504.5C575,505 575.5,505.4 576.2,505.7L578.2,506.2C579.4,506.7 579.9,507.5 579.9,508.4C579.9,510 578.9,510.9 576.8,510.9L555.8,510.9C554.7,510.9 554,510.7 553.5,510.3C553,509.9 552.8,509.3 552.8,508.6C552.8,508 553,507.5 553.3,507.2C553.6,506.9 554.1,506.5 554.8,506.2L556.9,505.7C557.6,505.4 558,505.1 558.4,504.6C558.7,504.1 558.9,503.3 558.9,502.1L558.9,471.1C558.9,470.2 558.8,469.5 558.5,469.1C558.2,468.7 557.8,468.4 557.1,468.3L554.2,468.1C553.5,468 553.1,467.7 552.8,467.4C552.5,467.1 552.4,466.6 552.4,466.1C552.4,465.5 552.6,465 552.9,464.6C553.2,464.2 553.9,463.9 554.9,463.5L564.9,459.8C566.3,459.3 567.5,458.9 568.3,458.7C569.2,458.5 570,458.3 570.7,458.3C571.9,458.3 572.7,458.6 573.3,459.3C573.9,459.8 574.2,460.7 574.2,461.7ZM572.5,473.9L570,471.3L572.1,469.4C576.7,465.1 580.7,462.2 584.2,460.5C587.7,458.8 590.9,458 593.9,458C598.6,458 602.4,459.5 605.3,462.5C608.2,465.5 609.6,469.5 609.6,474.6L609.6,502C609.6,503.2 609.8,504.1 610.1,504.6C610.4,505.2 611,505.6 611.7,505.8L613.6,506.3C614.3,506.6 614.9,506.9 615.2,507.3C615.5,507.7 615.7,508.2 615.7,508.7C615.7,509.4 615.5,509.9 615,510.4C614.5,510.8 613.7,511 612.7,511L591.7,511C589.6,511 588.6,510.2 588.6,508.5C588.6,507.5 589.2,506.8 590.3,506.3L592.4,505.8C593.1,505.5 593.6,505.1 593.9,504.6C594.2,504.1 594.4,503.2 594.4,502L594.4,476.9C594.4,473.7 593.6,471.3 592.1,469.7C590.5,468.1 588.4,467.3 585.8,467.3C584.2,467.3 582.4,467.7 580.6,468.4C578.7,469.2 576.9,470.4 574.9,472.1L572.5,473.9Z" style="fill:rgb(10,57,105);fill-rule:nonzero;stroke:rgb(10,57,105);stroke-width:0.75px;"/>
-              <path d="M640.8,461.7L640.8,502C640.8,503.1 641,504 641.3,504.5C641.6,505 642.1,505.4 642.8,505.6L644.8,506.1C645.5,506.3 646.1,506.6 646.4,507C646.7,507.4 646.9,507.9 646.9,508.5C646.9,509.2 646.6,509.7 646.1,510.2C645.6,510.6 644.8,510.8 643.8,510.8L622.4,510.8C621.3,510.8 620.6,510.6 620.1,510.2C619.6,509.8 619.4,509.2 619.4,508.5C619.4,507.9 619.6,507.4 619.9,507.1C620.2,506.8 620.7,506.4 621.4,506.1L623.5,505.6C624.2,505.3 624.6,505 625,504.5C625.3,504 625.5,503.2 625.5,502L625.5,471C625.5,470.1 625.4,469.4 625.1,469C624.8,468.6 624.4,468.3 623.7,468.2L620.8,468C620.1,467.9 619.7,467.6 619.4,467.3C619.1,467 619,466.5 619,466C619,465.4 619.2,464.9 619.5,464.5C619.8,464.1 620.5,463.8 621.5,463.4L631.5,459.7C633,459.2 634.1,458.8 635,458.6C635.9,458.4 636.6,458.3 637.2,458.3C638.4,458.3 639.4,458.6 640,459.3C640.5,459.8 640.8,460.7 640.8,461.7ZM631.9,449.8C629,449.8 626.6,449.1 624.8,447.6C623,446.1 622.2,444.1 622.2,441.7C622.2,439.3 623.1,437.3 624.8,435.8C626.6,434.3 628.9,433.6 631.9,433.6C634.8,433.6 637.2,434.3 639,435.8C640.8,437.3 641.7,439.2 641.7,441.7C641.7,444.2 640.8,446.2 639,447.6C637.2,449.1 634.9,449.8 631.9,449.8Z" style="fill:rgb(10,57,105);fill-rule:nonzero;stroke:rgb(10,57,105);stroke-width:0.75px;"/>
-              <path d="M679.5,511.3L673.9,511.3C672.8,511.3 671.8,511 671,510.4C670.2,509.8 669.5,508.9 669,507.7L653,468.1C652.4,466.7 651.9,465.7 651.6,465.3C651.2,464.8 650.8,464.5 650.2,464.4L648.5,463.9C647.8,463.7 647.3,463.4 647,463C646.7,462.6 646.6,462.1 646.6,461.6C646.6,460.9 646.9,460.3 647.4,459.9C647.9,459.5 648.6,459.3 649.6,459.3L674,459.3C676,459.3 676.9,460.1 676.9,461.6C676.9,462.2 676.7,462.7 676.4,463C676.1,463.4 675.5,463.7 674.6,463.8L672.6,464.2C670.9,464.6 669.9,465.2 669.6,466.1C669.3,467 669.5,468.5 670.4,470.7L683.2,503.7L679.8,505.6L693,470.7C693.8,468.5 694.1,466.9 693.8,466.1C693.5,465.2 692.5,464.6 690.9,464.2L688.9,463.8C688.1,463.6 687.5,463.3 687.2,463C686.8,462.6 686.7,462.1 686.7,461.6C686.7,460.9 687,460.3 687.5,459.9C688,459.5 688.7,459.3 689.7,459.3L704.5,459.3C705.4,459.3 706.2,459.5 706.7,459.9C707.2,460.3 707.5,460.9 707.5,461.6C707.5,462.1 707.4,462.6 707.1,463C706.8,463.4 706.2,463.7 705.4,463.9L703.7,464.3C703,464.5 702.4,465 701.9,465.9C701.3,466.8 700.6,468.3 699.8,470.4L684.8,508.2C684.3,509.5 683.6,510.4 682.8,510.8C681.4,511.1 680.5,511.3 679.5,511.3Z" style="fill:rgb(10,57,105);fill-rule:nonzero;stroke:rgb(10,57,105);stroke-width:0.75px;"/>
-              <path d="M757.2,478.6C757.2,480.6 756.6,482.1 755.5,483.2C754.4,484.3 752.7,484.8 750.6,484.8L716.5,484.8L716.5,480.5L738.8,480.5C740.7,480.5 741.6,479.6 741.6,477.9C741.6,473.1 740.7,469.5 739,467.1C737.3,464.6 734.9,463.4 732,463.4C729.7,463.4 727.7,464.1 726,465.4C724.3,466.8 722.9,468.7 721.9,471.3C720.9,473.9 720.4,476.9 720.4,480.5C720.4,487.5 722.1,492.8 725.4,496.3C728.7,499.8 733.1,501.6 738.5,501.6C741.7,501.6 744.5,501 746.9,499.7C749.3,498.4 751.2,496.6 752.6,494.3C753.3,493.6 753.8,493.1 754.2,492.8C754.6,492.5 755,492.4 755.4,492.4C756,492.4 756.4,492.7 756.7,493.2C757,493.7 757.1,494.4 757.1,495.1C757,498.2 755.9,501 753.9,503.6C751.9,506.2 749.1,508.3 745.7,509.8C742.2,511.3 738.2,512.1 733.7,512.1C728.4,512.1 723.8,511 719.7,508.9C715.6,506.7 712.4,503.7 710.1,499.8C707.8,495.9 706.6,491.3 706.6,486.1C706.6,480.5 707.7,475.6 709.9,471.4C712.1,467.2 715.3,463.8 719.4,461.4C723.5,459 728.4,457.8 734.1,457.8C739,457.8 743.1,458.7 746.6,460.4C750.1,462.2 752.7,464.6 754.5,467.7C756.3,470.8 757.2,474.6 757.2,478.6Z" style="fill:rgb(10,57,105);fill-rule:nonzero;stroke:rgb(10,57,105);stroke-width:0.75px;"/>
-              <path d="M782.2,461.7L783.1,473.9L783.1,502C783.1,503 783.3,503.8 783.7,504.3C784.1,504.8 784.9,505.2 786,505.3L790.6,506C791.5,506.1 792.1,506.4 792.5,506.8C792.9,507.2 793.1,507.8 793.1,508.5C793.1,509.2 792.8,509.8 792.3,510.2C791.8,510.6 791,510.8 790,510.8L764.5,510.8C763.4,510.8 762.7,510.6 762.2,510.2C761.7,509.8 761.5,509.2 761.5,508.5C761.5,507.9 761.7,507.4 762,507.1C762.3,506.8 762.8,506.4 763.5,506.1L765.6,505.6C766.3,505.4 766.7,505 767.1,504.5C767.4,504 767.6,503.1 767.6,502L767.6,471.1C767.6,470.2 767.5,469.5 767.2,469.1C766.9,468.7 766.5,468.4 765.8,468.3L762.9,468.1C762.2,467.9 761.8,467.7 761.5,467.3C761.2,467 761.1,466.6 761.1,466C761.1,465.4 761.3,464.9 761.6,464.5C762,464.1 762.6,463.7 763.6,463.4L773.4,459.8C775.2,459.1 776.6,458.6 777.4,458.4C778.3,458.2 778.9,458.1 779.4,458.1C780.2,458.1 780.8,458.4 781.2,458.9C781.8,459.6 782.1,460.5 782.2,461.7ZM781.2,482C781.2,476.7 782,472.3 783.5,468.7C785,465.1 787,462.4 789.4,460.6C791.8,458.8 794.4,457.9 797.2,457.9C800.7,457.9 803.4,458.9 805.3,460.9C807.2,462.9 808.1,465.7 808.1,469.4C808.1,472.7 807.4,475.1 806.1,476.7C804.8,478.3 803,479.1 800.9,479.1C798.7,479.1 797.1,478.5 795.9,477.4C794.8,476.2 794.2,474.6 794.2,472.5L794.2,470.5C794.2,469.4 793.9,468.5 793.4,468C792.9,467.4 792,467.2 790.9,467.2C789.6,467.2 788.3,467.7 787.2,468.8C786,469.8 785.1,471.4 784.3,473.6C783.6,475.7 783.2,478.5 783.2,481.8L781.2,482Z" style="fill:rgb(10,57,105);fill-rule:nonzero;stroke:rgb(10,57,105);stroke-width:0.75px;"/>
-              <path d="M831.8,462.9C829.3,462.9 827.3,463.5 825.9,464.8C824.5,466.1 823.8,467.6 823.8,469.6C823.8,470.8 824.1,471.8 824.6,472.8C825.1,473.8 826.1,474.7 827.6,475.4C829.1,476.2 831.3,476.9 834.1,477.6C839.7,478.7 844.1,480.2 847.2,481.9C850.3,483.6 852.4,485.7 853.6,487.9C854.8,490.1 855.4,492.7 855.4,495.5C855.4,500.6 853.6,504.6 850,507.6C846.4,510.6 841.2,512.1 834.4,512.1C832,512.1 830,511.9 828.5,511.5C827,511.1 825.7,510.7 824.7,510.3C823.7,509.9 822.8,509.7 822.1,509.7C821.3,509.7 820.7,509.9 820.2,510.3C819.7,510.7 819.3,511.1 818.8,511.5C818.4,511.9 817.8,512.1 817.1,512.1C816.4,512.1 816,511.9 815.6,511.5C815.3,511.1 814.9,510.5 814.6,509.5L811,498.7C810.6,497.4 810.5,496.3 810.6,495.5C810.8,494.7 811.3,494.1 812.1,493.8C812.9,493.5 813.7,493.5 814.3,493.8C814.9,494.1 815.5,494.7 816.1,495.6C817.7,498.4 819.5,500.6 821.3,502.3C823.1,504 825.1,505.2 827.1,506C829.2,506.7 831.3,507.1 833.4,507.1C836.5,507.1 838.9,506.5 840.4,505.2C841.9,503.9 842.7,502.2 842.7,500.1C842.7,498.8 842.4,497.7 841.7,496.7C841,495.7 839.8,494.7 838,493.9C836.2,493.1 833.6,492.2 830.3,491.5C825.6,490.5 821.8,489.2 819,487.5C816.2,485.9 814.2,483.9 813,481.6C811.8,479.3 811.2,476.6 811.2,473.6C811.2,470.5 812,467.7 813.7,465.3C815.3,462.9 817.6,461.1 820.5,459.7C823.4,458.4 826.8,457.7 830.6,457.7C833.1,457.7 835.1,457.9 836.5,458.4C838,458.8 839.2,459.3 840.2,459.7C841.2,460.1 842.1,460.4 842.9,460.4C843.8,460.4 844.5,460.2 845,459.7C845.5,459.3 846,458.8 846.5,458.4C847,458 847.6,457.7 848.2,457.7C848.7,457.7 849.2,457.9 849.6,458.3C850,458.7 850.3,459.4 850.4,460.3L853.1,470.7C853.4,472 853.5,473.1 853.3,473.9C853.1,474.7 852.7,475.2 851.8,475.6C851,475.9 850.2,475.9 849.6,475.5C849,475.1 848.3,474.4 847.7,473.3C845.5,469.5 842.9,466.8 840.1,465.2C837.6,463.7 834.7,462.9 831.8,462.9Z" style="fill:rgb(10,57,105);fill-rule:nonzero;stroke:rgb(10,57,105);stroke-width:0.75px;"/>
-          </g>
-        </g>
-      </svg>
+      <img src="@/assets/univers-plaid-logo.svg" alt="univers plaid logo">
     </div>
     <div  class="nav__menu" id="burder-menu">
       <ul>
@@ -116,15 +78,115 @@
         <FamousCard position="div5" cover="vedette_5.webp"/>
       </div>
     </section>
+
+    <section class="content__section content__collections">
+      <h2>Nos collections<span>Univers Plaid</span></h2>
+      <div class="content__collections__cards">
+        <CollectionCard 
+          title="Par couleur ou univers" 
+          description="Sublimez vos intérieurs avec nos plaids de toutes les couleurs, bleu, vert, jaune.. Ou offrez-vous simplement le plaid de votre univers favori."
+          cover="collection_1.webp"
+        />
+        <CollectionCard 
+          title="Pour enfant" 
+          description="Les plaids ont envahi nos intérieurs. Un plaid pour vos enfants avec des motifs dinosaures ou baby shark."
+          cover="collection_2.webp"
+        />
+        <CollectionCard 
+          title="Par bébé" 
+          description="Spécialement conçu pour les bébés, nos plaids sont incroyablement doux."
+          cover="collection_3.webp"
+        />
+      </div>
+    </section>
+
+    <section class="content__section content__about">
+        <img src="@/assets/univers-plaid-about.webp" alt="">
+        <div>
+          <h3>Qui sommes-nous ?</h3>
+          <p>Chez <strong>Univers Plaid</strong>, nous sommes convaincus que chacun mérite de se blottir dans un <strong>plaid confortable</strong> après une longue journée de travail ou pour une soirée cocooning à la maison. C'est pourquoi nous mettons tout en œuvre pour offrir à nos clients des <strong>produits de qualité supérieure</strong> à des <strong>prix abordables</strong>, avec un <strong>service client irréprochable</strong>. Nous n’avons qu’un seul objectif : <strong>vous chouchouter</strong>.</p>
+          <a href="#">Découvrir nos produits</a>
+        </div>
+    </section>
+
+    <section class="content__section content__service">
+      <ServiceCard title="Livraison offerte" description="Dès 50€ d'achat" icon="camion.svg"/>
+      <ServiceCard title="Satisfait ou remboursé" icon="money-back.svg"/>
+      <ServiceCard title="Service client" description="Réactif et à l'écoute" icon="service-client.svg"/>
+    </section>
+
+    <section class="content__section content__newsletter">
+      <div>
+        <img src="@/assets/envelope.svg" alt="">
+        <h3>Newsletter</h3>
+        <p>Inscrivez-vous à notre newsletter et profitez de 15% sur votre première commande.</p>
+        <form>
+          <input type="text" placeholder="Votre@email.com">
+          <button type="reset">S'inscrire</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="content__footer">
+      <div class="content__footer__top-part">
+        <div>
+          <img src="@/assets/univers-plaid-logo.svg" alt="logo univers plaid">
+          <ul class="company">
+            <li>Univers Plaid</li>
+            <li>Bernissart, Belgique</li>
+            <li>contact@univers-plaid.com</li>
+            <li>07.80.99.65.35</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Liens Utiles</h4>
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Notre Collection</a></li>
+            <li><a href="#">Mon Compte</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Nous contacter</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>à propos</h4>
+          <ul>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Conditions générales de vente</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Politique de remboursement</a></li>
+            <li><a href="#">Politique de livraison</a></li>
+            <li><a href="#">Rétractation</a></li>
+          </ul>
+        </div>
+
+        <div class="top-button">
+          <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="content__footer__bottom-part">
+        <span>© Copyright Univers-Plaid™ 2023 · Tous droits réservés</span>
+        <img src="@/assets/credit-cards.webp" alt="credit card">
+      </div>
+    </footer>
   </main>
 </template>
-
 <script>
   import FamousCard from '@/components/FamousCardComponent.vue';
+  import CollectionCard from '@/components/CollectionCardComponent.vue';
+  import ServiceCard from '@/components/ServiceComponent.vue';
   export default {
     name: 'App',
     components: {
       FamousCard,
+      CollectionCard,
+      ServiceCard
     },
     mounted() {
       const burger = document.getElementById('hamburger');
@@ -157,6 +219,10 @@ $pseudo-border: #0A3969;
 
     &__image {
       height: 6vh;
+
+      img {
+        height: 100%;
+      }
     }
 
     &__menu {
@@ -205,6 +271,10 @@ $pseudo-border: #0A3969;
           align-items: flex-start;
           justify-content: center;
           gap: 30px;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 28px;
+          }
 
           li {
             color: #0A3969;
@@ -261,6 +331,11 @@ $pseudo-border: #0A3969;
           gap: 30px;
           color: #0A3969;
           font-size: 24px;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 40px;
+            gap: 50px;
+          }
           
           i {
             cursor: pointer;
@@ -280,10 +355,17 @@ $pseudo-border: #0A3969;
               width: 15px;
               aspect-ratio: 1/1;
               font-size: 12px;
+              font-weight: bold;
               background-color: #FF8282;
               color: white;
               border-radius: 50%;
               padding: 2px;
+
+              @media screen and (min-width: 1024px) {
+                font-size: 20px;
+                width: 25px;
+                bottom: -15px;
+              }
             }
           }
         }
@@ -332,8 +414,14 @@ $pseudo-border: #0A3969;
         width: 40px;
         height: 24px;
 
+        @media screen and (min-width: 1024px) {
+          width: 50px;
+          height: 30px;
+        }
+
         .hamburger-inner {
-          top: 2px;
+          top: 0;
+          left: 0;
           transition-timing-function: cubic-bezier(.68,-.55,.265,1.55);
           transition-duration: .275s;
 
@@ -344,10 +432,18 @@ $pseudo-border: #0A3969;
 
           &::before {
             top: 10px;
+
+            @media screen and (min-width: 1024px) {
+              top: 13px;
+            }
           }
 
           &::after {
             top: 20px;
+
+            @media screen and (min-width: 1024px) {
+              top: 26px;
+            }
           }
         }
 
@@ -360,6 +456,11 @@ $pseudo-border: #0A3969;
           transition-property: transform;
           border-radius: 4px;
           background-color: #0A3969;
+
+          @media screen and (min-width: 1024px) {
+            height: 5px;
+            width: 100%;
+          }
         }
       }
 
@@ -375,6 +476,10 @@ $pseudo-border: #0A3969;
         &::after {
           transition-delay: 75ms;
           transform: translate3d(0,-20px,0) rotate(-270deg);
+
+          @media screen and (min-width: 1024px) {
+            transform: translate3d(0,-20px,0) rotate(-270deg) translateX(-4px);
+          }
         }
       }
     }
@@ -396,6 +501,10 @@ $pseudo-border: #0A3969;
       justify-content: center;
       align-items: center;
 
+      @media screen and (min-width: 768px) {
+        background-image: url("@/assets/desktop-hero.png");
+      }
+
       &__text {
         color: #ffffff;
         text-align: center;
@@ -403,16 +512,32 @@ $pseudo-border: #0A3969;
         font-weight: 100;
         padding: 10px;
 
+        @media screen and (min-width: 768px) {
+          width: 70%;
+        }
+
+        @media screen and (min-width: 1024px) {
+          width: 80%;
+        }
+
         h1 {
           font-size: 32px;
           font-weight: bold;
           margin-bottom: 30px;
+          
+          @media screen and (min-width: 1024px) {
+            font-size: 48px;
+          }
         }
 
         p {
           font-size: 20px;
           margin-bottom: 50px;
           font-family: sans-serif;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 28px;
+          }
         }
 
         span {
@@ -420,6 +545,10 @@ $pseudo-border: #0A3969;
           font-weight: 100;
           font-family: sans-serif;
           text-transform: uppercase;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 20px;
+          }
         }
       }
 
@@ -436,6 +565,12 @@ $pseudo-border: #0A3969;
         gap: 15px;
         width: 90%;
 
+        @media screen and (min-width: 1024px) {
+          flex-direction: row;
+          width: 80%;
+          bottom: -40px;
+        }
+
         input {
           border: none;
           padding: .8rem 1rem;
@@ -445,6 +580,11 @@ $pseudo-border: #0A3969;
           display: flex;
           align-items: center;
           justify-content: space-between;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 20px;
+            padding: 1rem;
+          }
 
           &:focus {
             outline: none;
@@ -465,6 +605,11 @@ $pseudo-border: #0A3969;
           font-weight: 900;
           cursor: pointer;
 
+          @media screen and (min-width: 1024px) {
+            font-size: 20px;
+            padding: 1rem 2rem;
+          }
+
           &:hover {
             background-color: #0A3969;
             color: #ffffff;
@@ -474,7 +619,11 @@ $pseudo-border: #0A3969;
     }
 
     &__section {
-      margin-top: 150px;
+      margin: 100px 0;
+
+      @media screen and (min-width: 1024px) {
+        margin: 200px 0;
+      }
 
       h2 {
         width: fit-content;
@@ -486,11 +635,20 @@ $pseudo-border: #0A3969;
         color: #0A3969;
         font-family: 'Yeseva One', cursive;
 
+        @media screen and (min-width: 1024px) {
+          font-size: 40px;
+          margin: 100px auto;
+        }
+
         &::after, &::before {
           content: "";
           position: absolute;
           width: 20px;
           height: 20px;
+          @media screen and (min-width: 1024px) {
+            width: 30px;
+            height: 30px;
+          }
         }
 
         &::after {
@@ -498,6 +656,12 @@ $pseudo-border: #0A3969;
           right: -10px;
           border-bottom: 3px solid $pseudo-border;
           border-right: 3px solid $pseudo-border;
+
+          @media screen and (min-width: 1024px) {
+            border-width: 4px;
+            bottom: -10px;
+            right: -20px;
+          }
         }
         
         &::before {
@@ -505,11 +669,19 @@ $pseudo-border: #0A3969;
           left: -10px;
           border-top: 3px solid $pseudo-border;
           border-left: 3px solid $pseudo-border;
+
+          @media screen and (min-width: 1024px) {
+            border-width: 4px;
+            top: -10px;
+            left: -20px;
+          }
         }
       }
     }
 
     &__famous {
+      margin-top: 150px;
+
       &__cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -525,6 +697,357 @@ $pseudo-border: #0A3969;
         .div3 { grid-area: 2 / 1 / 4 / 3; }
         .div4 { grid-area: 4 / 1 / 5 / 2; }
         .div5 { grid-area: 4 / 2 / 5 / 3; }
+      }
+    }
+
+    &__collections {
+      width: 100vw;
+
+      h2 {
+        display: flex;
+        gap: 15px;
+      }
+
+      h2 span {
+        display: none;
+
+        @media screen and (min-width: 1024px) {
+          display: block;
+          font-family: 'Yeseva One', cursive;
+        }
+      }
+
+      &__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+      }
+    }
+
+    &__about {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 150%;
+
+        @media screen and (min-width: 768px) {
+          width: 100%;
+        }
+      }
+
+      div {
+        background-color: rgba(188, 206, 234, 0.8);
+        position: absolute;
+        bottom: -25vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 3rem;
+
+        @media screen and (min-width: 768px) {
+          width: 80%;
+          bottom: -15vh;
+        }
+
+        @media screen and (min-width: 1024px) {
+          padding: 5rem;
+        }
+
+        h3 {
+          font-size: 28px;
+          font-weight: bold;
+          color: #0A3969;
+          font-family: 'Yeseva One', cursive;
+          margin: 25px 0;
+          @media screen and (min-width: 1024px) {
+            font-size: 36px;
+          }
+        }
+
+        p {
+          color: #0A3969;
+          margin: 25px 0;
+          @media screen and (min-width: 1024px) {
+            font-size: 24px;
+          }
+        }
+
+        a {
+          padding: 1rem 2rem;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #FFFFFF;
+          margin: 25px 0;
+          text-decoration: none;
+          background: #829ADE;
+          border-radius: 10px;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 24px;
+            width: auto;
+          }
+
+          &:hover {
+            background: #0A3969;
+          }
+        }
+      }
+    }
+
+    &__service {
+      background-color: #C9D8EE;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      padding: 50px 0;
+      margin-top: 40vh;
+
+      @media screen and (min-width: 768px) {
+          margin-top: 30vh;
+      }
+    }
+
+    &__newsletter {
+      background-image: url("@/assets/mobile-newsletter.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 100px 25px;
+      margin: 15vh 0 0;
+
+      @media screen and (min-width: 768px) {
+        background-image: url("@/assets/desktop-newsletter.png");
+      }
+
+      div {
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+          width: 70%;
+        }
+
+        img {
+          width: 50px;
+
+          @media screen and (min-width: 1024px) {
+            width: 70px;
+          }
+        }
+
+        h3 {
+          font-size: 24px;
+          font-family: 'Yeseva One', cursive;
+          margin: 15px 0;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 36px;
+            margin: 30px 0;
+          }
+        }
+
+        p {
+          @media screen and (min-width: 1024px) {
+            font-size: 24px;
+          }
+        }
+        
+        form {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          @media screen and (min-width: 1024px) {
+            margin-top: 50px;
+            gap: 30px;
+          }
+
+          input {
+            border: none;
+            padding: .8rem 1rem;
+            background-color: rgba(7, 30, 54, 0.5);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #ffffff;
+            border: 2px solid #FFFFFF;
+            @media screen and (min-width: 1024px) {
+              font-size: 24px;
+              padding: 1rem 2rem;
+            }
+
+            &:focus {
+              outline: none;
+            }
+
+            &::placeholder {
+              color: #FFFFFF;
+            }
+          }
+
+          button {
+            padding: 1em 3rem;
+            background-color: #ffffff;
+            border-radius: 10px;
+            border: none;
+            color: #0A3969;
+            font-family: sans-serif;
+            font-weight: 900;
+            cursor: pointer;
+
+            @media screen and (min-width: 1024px) {
+              font-size: 24px;
+              padding:  1rem 4rem;
+            }
+
+            &:hover {
+              background-color: #0A3969;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+
+    &__footer {
+      background-color: #C9D8EE;
+      padding: 50px 40px;
+
+      @media screen and (min-width: 1024px) {
+          padding: 4rem 6rem;
+      }
+
+      &__top-part {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 50px;
+
+        img {
+          width: 200px;
+
+          @media screen and (min-width: 1024px) {
+            width: 250px;
+          }
+        }
+
+        h4 {
+          font-size: 24px;
+          font-family: 'Yeseva One', cursive;
+          color: #0A3969;
+          text-transform: uppercase;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 32px;
+          }
+        }
+
+        .company {
+          margin-top: 50px;
+
+          @media screen and (min-width: 1024px) {
+            margin-top: 70px;
+          }
+        }
+
+        ul {
+          margin-top: 15px;
+          list-style: none;
+          color: #0A3969;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 24px;
+          }
+
+          li {
+            line-height: 1.5rem;
+
+            @media screen and (min-width: 1024px) {
+              line-height: 2.3rem;
+            }
+
+            a {
+              color: #0A3969;
+              text-decoration: none;
+            }
+          }
+        }
+
+        .top-button {
+          background-color: #0A3969;
+          height: 60px;
+          width: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          margin: 0 auto 25px;
+
+          @media screen and (min-width: 1024px) {
+            height: 80px;
+            width: 80px;
+          }
+
+          a {
+            color: #C9D8EE;
+            font-size: 32px;
+
+            @media screen and (min-width: 1024px) {
+              font-size: 40px;
+            }
+          }
+        }
+      }
+
+      hr {
+        border: 1px solid #0A3969;
+        border-radius: 10px;
+        margin: 25px 0;
+      }
+
+      &__bottom-part {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+
+        span {
+          color: #0A3969;
+          width: 90%;
+
+          @media screen and (min-width: 1024px) {
+            font-size: 24px;
+          }
+        }
+
+        img {
+          width: 300px;
+
+          @media screen and (min-width: 1024px) {
+            width: 400px;
+          }
+        }
       }
     }
   }

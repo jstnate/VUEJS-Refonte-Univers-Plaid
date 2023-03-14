@@ -30,12 +30,14 @@ export default {
         cursor: pointer;
 
         a {
+            width: 100%;
+            height: 100%;
             img {
                 aspect-ratio: 1/1;
                 width: 100%;
                 height: 100%;
                 border-radius: 15px;
-                box-shadow: 0px 10px 20px rgba(10, 57, 105, 0.20);
+                box-shadow: 0px 10px 20px rgba(10, 57, 105, 0.15);
 
             }
         }
